@@ -18,28 +18,28 @@ const handleUserInput = function(key) {
     process.exit();
   }
 
-  switch(key){
-    case 'w':
-      connection.write("Move: up");
-      break;
-    case 'a':
-      connection.write("Move: left");
-      break;  
-    case 's':
-      connection.write("Move: down");
-      break;
-    case 'd':
-      connection.write("Move: right");
-      break;
-    case '4':
-      connection.write("Say: AAaaH!");
-      break;
-    case '2':
-      connection.write("Say: Hahaha! I got this");
-      break;
-    case '6':
-      connection.write("Say: Sssssss .... snake");
-      break;
+  switch (key) {
+  case 'w':
+    connection.write("Move: up");
+    break;
+  case 'a':
+    connection.write("Move: left");
+    break;
+  case 's':
+    connection.write("Move: down");
+    break;
+  case 'd':
+    connection.write("Move: right");
+    break;
+  case '4':
+    connection.write("Say: AAaaH!");
+    break;
+  case '2':
+    connection.write("Say: Hahaha! I got this");
+    break;
+  case '6':
+    connection.write("Say: Sssssss .... snake");
+    break;
   }
 };
 
